@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+h1 span {
+    color: #002affa9;
+}
+
+/* Style pour la dropzone */
+#dropZone {
+    border: 2px dashed #002affa9;
+    padding: 0px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px auto;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    background-color: #002aff34;
+}
+
+/* Style pour le texte à l'intérieur de la dropzone */
+#dropZone p {
+    margin: 0;
+}
+
+#dropZone .icon {
+    font-size: 70px;
+    color: #002affa9;
+}
+
+/* Style pour l'image affichée après le drop */
+#imageDropped {
+    margin-top: 20px;
+    max-width: 30%;
+    border-radius: 10px;
+}
+
+/* Style pour le tableau des métadonnées */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Style pour les cellules du tableau */
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    width: 300px;
+    text-align: center;
+}
+
+/* Style pour les en-têtes de colonne */
+th {
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Style pour les lignes paires du tableau */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style pour les lignes impaires du tableau */
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
